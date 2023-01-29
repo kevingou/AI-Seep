@@ -85,7 +85,7 @@ const handleSubmit = async (e) => {
 
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
-
+//
     const response = await fetch('https://seep-ai.onrender.com', {
         method: 'POST',
         headers: {
